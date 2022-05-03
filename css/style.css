@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+input{
+  width: 160px;
+}
+input:focus{
+  border: 3px solid black;
+  width: 250px;
+  transition-duration: 2s;
+}
+
+#outerSec{
+  background-color: rgb(243, 182, 165);
+}
+
+#outerSec:hover{
+  background-color: magenta;
+  transition-duration: 3s;
+  color: white
+}
+
+#outerSec:not(:hover){
+  background-color: rgb(243, 182, 165);
+  transition-duration: 5s;
+}
+
+#card{
+  margin:0 50px;
+  padding: 10px 20px;
+  border: 20px solid white;
+}
+
+#leftClick{
+  margin:3% 10% 3% 40%;
+  padding: 2%;
+  font-size: xx-large;
+}
+
+#rightClick{
+  padding: 2%;
+  font-size: xx-large;
+}
