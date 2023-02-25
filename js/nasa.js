@@ -1,7 +1,9 @@
-document.querySelector("#todayPic").addEventListener("click",getTodayPic);
+document.querySelector("#todayPic").addEventListener("click",getTodaysPic);
 document.querySelector("#datePicOfDay").addEventListener("click",getDatePic);
 
-function getTodayPic(){
+getTodaysPic();
+
+function getTodaysPic(){
     fetch("https://api.nasa.gov/planetary/apod?api_key=fxBpUhePE9YkzlgsJJQjILCzLjlW7LgHkWri6z6B")
     .then(res => res.json())
     .then(data => {
