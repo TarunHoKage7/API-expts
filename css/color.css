@@ -10,7 +10,12 @@
   /******************************************
   /* LAYOUT
   /*******************************************/
-  
+  body{
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center top 50%;
+    padding-bottom: 50%;
+  }
   
   /******************************************
   /* ADDITIONAL STYLES
